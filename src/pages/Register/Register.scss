@@ -1,0 +1,28 @@
+#register {
+	p {
+		font-size: 14px;
+		color: #444;
+	}
+
+	label {
+		font-size: 14px;
+		font-weight: 600;
+		text-align: right;
+		&:not([for='checkbox'])::before {
+			content: '* ';
+			color: #f00;
+			font-weight: bold;
+		}
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	.title-form {
+		font-size: 20px;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 10px 0px;
+		margin-bottom: 10px;
+	}
+}

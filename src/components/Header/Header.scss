@@ -1,0 +1,49 @@
+#header {
+	.socical {
+		display: flex;
+		gap: 1rem;
+		.fa-facebook {
+			color: #3b5998;
+		}
+		.fa-twitter {
+			color: #38a1f3;
+		}
+		.fa-instagram {
+			color: #cd486b;
+		}
+	}
+	.logo {
+		img {
+			width: 300px;
+			height: 62px;
+			margin: 0 auto;
+		}
+	}
+	.search {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 8px 10px;
+		border-radius: 8px;
+		width: 200px;
+		border: 1px solid #d3d3d3;
+		margin-left: auto;
+		input {
+			font-size: 12px;
+			border: none;
+			outline: none;
+		}
+	}
+
+	.header-cart {
+		.dropdown-menu {
+			right: 0;
+			width: 400px;
+			margin-top: 4px;
+		}
+		button {
+			background: #cd486b;
+			border: 1px solid #cd486b;
+		}
+	}
+}
